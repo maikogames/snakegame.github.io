@@ -1,0 +1,20 @@
+{
+  "gameTitle": "Snake Game",
+  "score": "Score",
+  "highScore": "High Score",
+  "startGame": "Start Game",
+  "pauseGame": "Pause",
+  "resumeGame": "Resume",
+  "restartGame": "Restart",
+  "instruction1": "Instructions: Use arrow keys to control the snake's movement. Eat food to grow longer and score points. Game over if you hit the wall or yourself.",
+  "instruction2": "You can also use WASD keys or tap the directional buttons on the screen to control the snake.",
+  "gameOver": "Game Over",
+  "yourScore": "Your Score",
+  "playAgain": "Play Again",
+  "gamePaused": "Game Paused",
+  "continueGame": "Continue Game",
+  "language": "Language",
+  "chinese": "中文",
+  "english": "English",
+  "pressSpace": "Press Space to pause/resume"
+}

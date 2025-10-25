@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>贪吃蛇游戏</h1>
+        <div class="game-info">
+            <div class="score">分数: <span id="score">0</span></div>
+            <div class="high-score">最高分: <span id="high-score">0</span></div>
+        </div>
+        <div class="game-container">
+            <canvas id="game-board" width="400" height="400"></canvas>
+        </div>
+        <div class="controls">
+            <button id="start-btn">开始游戏</button>
+            <button id="pause-btn" disabled>暂停</button>
+            <button id="restart-btn" disabled>重新开始</button>
+            <div class="language-selector">
+                <button id="lang-btn">语言</button>
+                <div id="lang-dropdown" class="lang-dropdown">
+                    <button id="lang-zh" class="lang-option active">中文</button>
+                    <button id="lang-en" class="lang-option">English</button>
+                </div>
+            </div>
+        </div>
+        <div class="instructions">
+            <p>游戏说明：使用方向键控制蛇的移动，吃到食物会变长并获得分数，碰到墙壁或自己的身体游戏结束。</p>
+            <p>也可以使用WASD键或点击屏幕上的方向按钮控制蛇的移动。</p>
+        </div>
+        <div class="mobile-controls">
+            <button class="dir-btn up" data-direction="up">↑</button>
+            <div class="horizontal-controls">
+                <button class="dir-btn left" data-direction="left">←</button>
+                <button class="dir-btn down" data-direction="down">↓</button>
+                <button class="dir-btn right" data-direction="right">→</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

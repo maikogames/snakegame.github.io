@@ -1,0 +1,20 @@
+{
+  "gameTitle": "贪吃蛇游戏",
+  "score": "分数",
+  "highScore": "最高分",
+  "startGame": "开始游戏",
+  "pauseGame": "暂停",
+  "resumeGame": "继续",
+  "restartGame": "重新开始",
+  "instruction1": "游戏说明：使用方向键控制蛇的移动，吃到食物会变长并获得分数，碰到墙壁或自己的身体游戏结束。",
+  "instruction2": "也可以使用WASD键或点击屏幕上的方向按钮控制蛇的移动。",
+  "gameOver": "游戏结束",
+  "yourScore": "你的分数",
+  "playAgain": "再玩一次",
+  "gamePaused": "游戏暂停",
+  "continueGame": "继续游戏",
+  "language": "语言",
+  "chinese": "中文",
+  "english": "English",
+  "pressSpace": "按空格键暂停/继续"
+}
